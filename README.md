@@ -7,7 +7,7 @@
 - Do a single-point current-voltage measurment OVER time.
 - Do liveplot, and save data by clicking the checkbox
 - 
-======================= Status of Project =========================================
+============================= Status of Project ===================================
 
 The whole program works properly for both voltage and time scanning measurements 
 unless you concern much about speed and neatness.
