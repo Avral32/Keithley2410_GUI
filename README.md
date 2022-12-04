@@ -13,7 +13,7 @@ The whole program works properly for both voltage and time scanning measurements
 unless you concern much about speed and neatness.
 
 There are a few issues needed to be optimized. The live plot is not optimized 
-by the time when it was finished at FSO. So the live plots are implemented with
+by the time when it was finished. So the live plots are implemented with
 Drawnow package, which draws the plot outside of **tkinter** object. Even worse, 
 the reaction of the script gets slower due to a for loop that is used for voltage
 scan. This is most likely due to the fact that the internal loop of the *tkinter* 
