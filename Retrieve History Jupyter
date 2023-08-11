@@ -1,0 +1,4 @@
+Export Ipython history to a plain text file
+
+Type the following code to the command entry in jupyter. 
+%history -g -f "history.dat"
